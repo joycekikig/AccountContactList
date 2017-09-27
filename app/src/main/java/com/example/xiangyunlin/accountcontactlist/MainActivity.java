@@ -87,17 +87,17 @@ public class MainActivity extends AppCompatActivity {
         }
 
 
-        /*
+
         ListView list = (ListView) findViewById(R.id.listView);
         SimpleCursorAdapter adapter = new SimpleCursorAdapter(
                 this,
-                android.R.layout.simple_list_item_1,
+                android.R.layout.two_line_list_item,
                 cursor,
-                new String[]{ContactsContract.CommonDataKinds.Phone.NUMBER, ContactsContract.CommonDataKinds.Phone.DISPLAY_NAME},
+                new String[]{ContactsContract.CommonDataKinds.Phone.DISPLAY_NAME, ContactsContract.CommonDataKinds.Phone.NUMBER},
                 new int[] {android.R.id.text1, android.R.id.text2},
                 1);
         list.setAdapter(adapter);
-        */
+
 
     }
 
