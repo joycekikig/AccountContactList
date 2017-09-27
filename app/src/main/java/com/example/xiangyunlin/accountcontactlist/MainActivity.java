@@ -26,7 +26,7 @@ import static android.Manifest.permission.WRITE_CONTACTS;
 public class MainActivity extends AppCompatActivity {
     private static final int REQUEST_CONTACTS = 1;
     private ListView listView;
-    
+
     // Method 1
     @Override
     protected void onCreate(Bundle savedInstanceState) {
